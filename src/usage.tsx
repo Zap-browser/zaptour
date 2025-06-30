@@ -5,8 +5,8 @@ import logoBTFS from '@/assets/logobtfs.png'; // Assuming you have a BTFS logo i
 import btfsfund from '@/assets/btfsfund.png'; // Assuming you have a BTFS fund image in your assets
 // import btfslogin from '@/assets/btfslogin.png'; // Assuming you have a BTFS login image in your assets
 import btfsok from '@/assets/btfsok.png'; // Assuming you have a BTFS ok image in your assets
-// import btfssignup from '@/assets/btfssignup.png'; // Assuming you have a BTFS signup image in your assets
-// import btfswaiting from '@/assets/btfswaiting.png'; // Assuming you have a BTFS waiting image in your assets
+import btfssignup from '@/assets/btfssignup.png'; // Assuming you have a BTFS signup image in your assets
+import btfslogin from '@/assets/btfslogin.png'; // Assuming you have a BTFS waiting image in your assets
 import dashboard from '@/assets/dashboard.png'; // Assuming you have a dashboard image in your assets
 import usage from '@/assets/usage.png'; // Assuming you have a usage image in your assets
 import permissions from '@/assets/permissions.png'; // Assuming you have a permissions image in your assets
@@ -53,7 +53,6 @@ const UsageGuide = () => {
             </div>
         </div>
 
-        {/* 
         <div className="h-auto md:flex bg-white/30 backdrop-blur mb-10 rounded-l-md">
             <div className="text-black w-full py-3 px-2">
                 <h1 className="text-2xl font-extrabold mb-2">Setup a password!!</h1>
@@ -64,12 +63,12 @@ const UsageGuide = () => {
         </div>
         
         <div className="h-auto md:flex bg-white/30 backdrop-blur mb-10 rounded-r-md">
-            <img src={btfsfund} alt="01 image" className="w-[100%] md:w-[70%]" />
+            <img src={btfslogin} alt="01 image" className="w-[100%] md:w-[70%]" />
             <div className="text-black w-full py-3 px-2">
                 <h1 className="text-2xl font-extrabold mb-2 text-mono">Login</h1>
                 <p className="text-black/90 text-xl text-start font-mono mb-2">Enter the pasword to login into the node.</p>
             </div>
-        </div> */}
+        </div> 
 
         {/* btfs wait */}
         <div className="h-auto md:flex bg-white/30 backdrop-blur mb-10 rounded-l-md">
